@@ -1,6 +1,6 @@
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 	.lesson {
-		width: 50px;
+		width: 50%;
 		margin-bottom: 50px
 	}
 
@@ -13,8 +13,16 @@
 	}
 }
 
-@media (max-width: 670px) {
-	.lesson {
+@media all and (max-width: 670px) {
+	.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:block;
+}
+
+	.submenu-icon {
 		width: 100%;
 	}
 
@@ -22,8 +30,12 @@
 		text-align: center;
 	}
 
+  .footer-list a{
+		width: 40px 
+	}
+
 	.btn {
-		width: 100%;
+		width: 100%; margin-right:25px;
 	}
 
 	.facebook {
@@ -32,11 +44,11 @@
 
 	.top-wrapper {
 		text-align: left;
-		padding-top: 130px;
+		padding-top: 50px;
 	}
 
 	.top-wrapper h1 {
-		font-size: 24px;
+		font-size: 14px;
 		line-height: 36px;
 	}
 
@@ -44,4 +56,15 @@
 		font-size: 14px;
 		line-height: 20px;
 	}
-}
+ 
+ .btn-wrapper{width:80%;}
+ 
+ .top-wrapper p {            
+             font-size: 14px;            
+                line-height: 20px;   padding-left:50px;         
+              }
+  
+  .header-right {
+    display: none;
+  }
+  
